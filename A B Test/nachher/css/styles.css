@@ -1,0 +1,41 @@
+body {
+    font-size: 12px;
+    font-family: "Helvetica", sans-serif;
+    background-color: rgb(230, 230, 230);
+}
+
+#container {
+    font-size: 150%;
+    width: 600px;
+    margin: 5px auto;
+    border: 1px solid rgb(200, 200, 200);
+    background-color: white;
+    min-height: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#buy-button-green,
+#buy-button-blue {
+    display: block;
+    padding: 10px 5px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#buy-button-blue {
+    background-color: blue;
+}
+
+#buy-button-green {
+    background-color: darkgreen;
+}
+
+table {
+    border: 1px solid rgb(200, 200, 200);
+}
+table td, table th {
+    border: 1px solid rgb(200, 200, 200);
+}
